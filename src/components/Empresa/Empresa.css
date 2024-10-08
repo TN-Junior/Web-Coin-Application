@@ -1,0 +1,6 @@
+
+.ContainerEmpresa{
+    width: 100vw;
+    display: flex;
+  box-sizing: border-box;
+}

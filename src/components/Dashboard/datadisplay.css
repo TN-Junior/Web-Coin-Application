@@ -1,0 +1,93 @@
+/* Estilo para o novo elemento geral, "quadrado" da Dashboard */
+.square {
+  width: 1062px;
+  height: 580px;
+  position: absolute;
+  top: 130px;
+  left: 273px;
+  background: #F1F1F1;
+  border-radius: 20px;
+  margin-left: 1cm;
+}
+
+/* Estilo para os novos elementos das caixas */
+.box {
+  width: 210px;
+  height: 110px;
+  background-color: #FFFFFF;
+  margin-right: 1cm;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 35px;
+  position: relative;
+}
+
+.box:first-child {
+  margin-left: 1cm;
+  border-top: 20px solid #E1B20C;
+}
+
+.box-title {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.box:nth-child(2) {
+  border-top: 20px solid #C20202;
+}
+
+/* Estilo para a borda superior da terceira caixa */
+.box:nth-child(3) {
+  border-top: 20px solid #352D67;
+}
+
+/* Estilo para a borda superior da quarta caixa */
+.box:nth-child(4) {
+  border-top: 20px solid #0CB531;
+}
+
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  
+  .menu {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .menu-item {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .square {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .user-name-display {
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}}
