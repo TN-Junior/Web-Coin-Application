@@ -1,1 +1,1 @@
-# Web-Coin-Application
+# Coin
