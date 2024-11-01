@@ -1,0 +1,115 @@
+
+.ContainerEmpresa{
+  flex-direction: column;
+  height: 100vh;
+    display: flex;
+  box-sizing: border-box;
+}
+
+.segundoContainer{
+  margin-top: 10vh;
+  display: flex;
+  flex: 1;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  background-color: #f0f0f5;
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #006dc0;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table th, .styled-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #006dc0;
+}
+
+.styled-table td {
+  color: #333;
+}
+
+.miniHeader{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.miniHeader h2{
+  font-size: 3rem;
+  color: #006dc0;
+  font-weight: 800;
+  margin-top: -7px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.titleAddEdit{
+  text-align: center;
+  color: #006dc0!important;
+}
+
+.cancelarBtn{
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addBtn{
+  margin-left: 9px;
+}
+
+.form-actions{
+  display: flex;
+  justify-content: space-between!important;
+}
+
+.filter{
+  padding: 10px 20px;
+  border-color: #006dc0;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.selectAtiva{
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+
+.situacaoCadastral{
+  margin-bottom: 8px;
+}

@@ -1,0 +1,26 @@
+.ContainerEmpresa{
+  display: flex;
+}
+
+.segundoContainer{
+  margin-top: 10vh;
+}
+
+.chartsContainer{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.receitas h2, .despesas h2{
+  text-align: center;
+}
+
+.receitas h2{
+  color: darkgreen;
+}
+
+.despesas h2{
+  color: darkred;
+}

@@ -1,0 +1,119 @@
+.empresa-page {
+  padding: 20px;
+  margin: 0vw 3.39vw;
+}
+
+.empresa-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+  width: 10vw;
+  margin-left: 24vw;
+  
+}
+
+.empresa-header h2 {
+  margin-left: 2rem;
+    color: #006ac0;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+.btnAdicionar{
+  width: 2vw;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: #006ac0;
+  color: white;
+  font-weight: 700;
+  margin-top: 0.8em;
+}
+
+.add-button {
+  background-color: #006ac0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.empresa-table {
+  width: 75vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.empresa-table th, .empresa-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.empresa-table th {
+  background-color: #006ac0;
+  color: white;
+}
+
+.empresa-table tr {
+  background-color: rgb(236, 234, 234);
+}
+
+.empresa-table tr:hover {
+  background-color: #006ac0;
+}
+
+.actions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtro{
+  background-color: #006ac0;
+  color: white;
+}
+
+.actions > button:hover{
+    transition: 0.5s;
+    background-color: white;
+    border-width: 1px;
+    border-color: #006ac0;
+    border-style: solid;
+    color: #006ac0;
+}
+
+.filtro{
+  margin-top: 0.6em;
+}
+
+.modal-content h3{
+  text-align: center;
+  color: #006ac0;
+}
+.modal-content input{
+  box-sizing: border-box;
+  border: solid 1px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.select{
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom:10px ;
+  padding: 5px 5px;
+}
+
+.inputSpace{
+  padding: 3px 5px;
+}
